@@ -1,0 +1,82 @@
+#catalog {
+    margin: auto;
+    width: 95%;
+    background-color: aqua;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 1em;
+}
+
+.content-box {
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.content-box img {
+    width: 65%;
+}
+
+.content-box .price-label {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+h1 {
+    text-align: center;
+}
+
+#filter-form {
+    text-align: center;
+}
+
+#auth-box, #book-form {
+    width: 30%;
+    padding: 1em;
+    margin: auto;
+    border-radius: 1em;
+    background-color: bisque;
+    text-align: center;
+}
+
+#auth-box input, #book-form input {
+    width: 50%;
+    height: 2em;
+    margin: .5em;
+}
+
+#auth-box select, #book-form select {
+    width: 50%;
+    height: 2em;
+    margin: .5em;
+}
+
+#auth-box a{
+    font-size: larger;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+#auth-box a:hover{
+    text-decoration: underline;
+}
+
+#invalid-data-box {
+    color: red;
+}
+
+#notification-box {
+    width: 20%;
+    height: 10em;
+    background-color: rgba(0, 128, 0, 0.75);
+    padding: 1em;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    color: aliceblue;
+}
